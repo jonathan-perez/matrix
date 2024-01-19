@@ -97,7 +97,7 @@ canvas{ position: relative;
       .video  video{width: 80%;
                     height: 80%;
                    }
-      .audio{left: 16%;
+      .audio{left: 12%;
               top: 4%;
             }
       .pushable {width: 80%;
