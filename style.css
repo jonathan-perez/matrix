@@ -16,17 +16,18 @@ canvas{ position: relative;
         z-index: -10;
       }
 
-.video{position: absolute;
-  
+.video{
+      position: absolute;
        height: 100%;
        width: 100%;
-       z-index: -1;
+       z-index: 0;
        justify-content: center;
        align-items: center;
       /* border: 0.5rem solid green;*/
        left: 0;
        display: flex;
        top: 0;
+       
     }
   .video video{height: 50%;
                width: 50%;
