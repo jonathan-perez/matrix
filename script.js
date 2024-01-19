@@ -39,7 +39,7 @@ window.addEventListener("resize", () => location.reload());
 
 //boton vibratorio
 function testVibrate() {
-    document.getElementById("demo").innerHTML = "Does it vibrate? ";
+    document.getElementById("demo").innerHTML = "";
     window.navigator.vibrate([200, 100, 200, 100, 700, 100, 200, 100, 200, 100, 200, 100, 200, 100, 200, 
         1200, 200, 100, 200, 100, 700, 100, 200, 100, 200, 1200, 200, 100, 200, 100, 700, 100, 200, 100, 200, 
         100, 200, 100, 700, 100, 700, 100, 200, 100, 200, 100, 700, 100, 200, 100, 700, 100, 200, 100, 200, 100, 200, 100, 200, 100, 200, 1200,
