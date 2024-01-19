@@ -49,8 +49,6 @@ canvas{ position: relative;
         align-items: center;
         top:17%;
         left: 40%;
-        /*border: 0.5rem solid red;*/
-      /*  left: 44%;*/
       }
       .front {
         display: block;
@@ -65,6 +63,27 @@ canvas{ position: relative;
       .pushable:active .front {
         transform: translateY(-2px);
       }
+      #info{width:1.5%;
+        height: 1.5%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+            position: absolute;
+            background-color: blue;
+            color: white;
+            padding: 2rem 2rem;
+            border-radius: 100%;
+            left: 48%;
+            top: 90%;
+           }
+
+           input{
+            display: none;
+           }
+
+           label{
+            display: none;
+           }
 
 /* media query */
 @media screen and (max-width:700px)  {
