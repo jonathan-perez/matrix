@@ -97,12 +97,13 @@ canvas{ position: relative;
       .video  video{width: 59%;
                     height: 50%;
                    }
-      .audio{left: 21%;
+      .audio{left: 08%;
               top: 78%;
-              width: 45%;
+              width: 60%;
             }
-      .pushable {width: 30%;
-                left: 35%;
+      .pushable {width: 45%;
+                left: 28%;
+                top:10%;
                 }
       #info{top: 78%;
             left: 68%;
