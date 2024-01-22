@@ -101,7 +101,7 @@ canvas{ position: relative;
 @media screen and (max-width:800px)  {
       .video{top: -18%;}
       .video  video{width: 80%;
-                    height: 6'%;
+                    height: 50%;
                    }
       .audio{left: 20%;
               top: 58%;
@@ -114,4 +114,23 @@ canvas{ position: relative;
       #info{top: 70%;
             left: 40%;
            }
+  }
+  @media screen and (max-height: 400px){
+    .video{top: -18%;
+          }
+    .video  video{width: 40%;
+                  height: 40%;
+                 }
+    .audio{left: 25%;
+            top: 55%;
+            width: 50%;
+          }
+    .pushable {width: 30%;
+              left: 25%;
+              top: 75%;
+              }
+    #info{top: 72%;
+          left: 60%;
+         }
+    
   }
