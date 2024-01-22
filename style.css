@@ -116,10 +116,10 @@ canvas{ position: relative;
            }
   }
   @media screen and (max-height: 400px){
-    .video{top: -18%;
+    .video{top: -23%;
           }
-    .video  video{width: 40%;
-                  height: 40%;
+    .video  video{width: 50%;
+                  height: 50%;
                  }
     .audio{left: 25%;
             top: 55%;
@@ -127,9 +127,9 @@ canvas{ position: relative;
           }
     .pushable {width: 30%;
               left: 25%;
-              top: 75%;
+              top: 78%;
               }
-    #info{top: 72%;
+    #info{top: 75%;
           left: 60%;
          }
     
