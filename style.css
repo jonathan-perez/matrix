@@ -94,13 +94,17 @@ canvas{ position: relative;
 }
 
 @media screen and (max-width:800px)  {
-      .video  video{width: 80%;
-                    height: 80%;
+      .video  video{width: 59%;
+                    height: 50%;
                    }
-      .audio{left: 12%;
-              top: 4%;
+      .audio{left: 21%;
+              top: 78%;
+              width: 45%;
             }
-      .pushable {width: 80%;
-                left: 10%;
-    }
+      .pushable {width: 30%;
+                left: 35%;
+                }
+      #info{top: 78%;
+            left: 68%;
+           }
   }
