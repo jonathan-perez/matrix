@@ -88,14 +88,12 @@ canvas{ position: relative;
            }
 
 /* media query */
-@media screen and (max-width:700px)  {
-  .audio{left: 15%;}
-}
+
 @media screen and (max-width:1150px)  {
-    .audio{left:35%;}
+  .audio{left:35%;}
 }
 
-@media screen and (max-width:500px)  {
+@media screen and (max-width:800px)  {
       .video  video{width: 80%;
                     height: 80%;
                    }
